@@ -4,7 +4,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Welcome to Whiz Quiz!"
+    return render_template("base.html")
+
+@app.route('/quizzes')
+def quizzes():
+    return render_template("quizzes.html")
+
+@app.route('/devlopers')
+def developers():
+    return render_template("developers.html")
 
 if __name__ == '__main__':
     app.run(debug=True)
