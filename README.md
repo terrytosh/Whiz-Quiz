@@ -19,15 +19,19 @@ Werkzeug==2.1.1
 
 ## Initial Setup and Execution
 
-In order to run this website on your local machine. Please follow the instructions outlines below.  
-Make sure to have Python
+In order to run this website on your local machine. Please follow the instructions outlined below.  
+Make sure to have Python installed on your machine. This can be verified in the command prompt with:  
+> python --version  
 
-> Clone the repository on your system using git clone  
+If Python is not installed, navigate to ***https://www.python.org/downloads/*** and install it.  
+
+First, clone the repository on your system using git clone.  
 
 Now, we must set up the virtual environment.  
 In the project directory:  
 > py -3 -m venv venv  
-> .\venv\Scripts\activate
+
+> .\venv\Scripts\activate  
 
 The virtual environment is now properly setup.  
 
